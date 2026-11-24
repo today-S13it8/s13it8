@@ -26,17 +26,21 @@ export default function About() {
 
       <section className="container-site flex flex-wrap items-start gap-16 py-28">
         <Reveal className="flex min-w-0 flex-[1_1_380px] flex-col gap-5">
-          {/* TODO: replace with the founder photo. */}
-          <div
-            role="img"
-            aria-label="Founder photo placeholder"
-            className="flex aspect-[4/5] items-center justify-center rounded-3xl border border-border bg-accent font-mono text-[13px] tracking-[0.1em] text-muted-foreground uppercase"
-          >
-            [Founder photo]
+          <div className="overflow-hidden rounded-3xl border border-border shadow-[0_30px_80px_-30px_rgba(76,155,255,0.35)]">
+            <motion.img
+              src={asset('img/founder.webp')}
+              alt="Matthew Smith, founder of s13it8"
+              width={940}
+              height={788}
+              loading="lazy"
+              className="block aspect-[940/788] w-full object-cover"
+              whileHover={{ scale: 1.03 }}
+              transition={{ duration: 0.6, ease: EASE }}
+            />
           </div>
           <div className="flex justify-between gap-3">
             <div className="flex flex-col">
-              <span className="font-display text-2xl font-semibold">Matt Smith</span>
+              <span className="font-display text-2xl font-semibold">Matthew Smith</span>
               <span className="text-muted-foreground">Founder, builder</span>
             </div>
             <span className="font-mono text-[13px] text-muted-foreground">St. Louis, MO</span>

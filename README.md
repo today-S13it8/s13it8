@@ -43,4 +43,4 @@ There is no backend yet. Sending opens the visitor's email app with a message to
 
 ## Still to fill in
 
-- Founder photo and a personal line in `src/pages/about.tsx`
+- A personal line in `src/pages/about.tsx`
