@@ -39,7 +39,7 @@ Reveals on scroll, staggered cards, word-by-word headlines, page transitions, a 
 
 ## Contact form
 
-There is no backend yet. Sending opens the visitor's email app with a message to s13it8@gmail.com filled in. To receive submissions directly, post the form to an n8n webhook in `src/pages/contact.tsx`.
+There is no backend yet. Sending opens the visitor's email app with a message to matt@s13it8.com filled in. To receive submissions directly, post the form to an n8n webhook in `src/pages/contact.tsx`.
 
 ## Still to fill in
 

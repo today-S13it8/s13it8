@@ -1,7 +1,7 @@
 import type { LucideIcon } from 'lucide-react'
 import { Bot, Server, LayoutTemplate, Briefcase } from 'lucide-react'
 
-export const CONTACT_EMAIL = 's13it8@gmail.com'
+export const CONTACT_EMAIL = 'matt@s13it8.com'
 export const BOOKING_URL = 'https://cal.todaysmith.com/matt/30-minute-consult-video-conference'
 
 export const nav = [
