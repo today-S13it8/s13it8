@@ -30,10 +30,10 @@ export default function About() {
             <motion.img
               src={asset('img/founder.webp')}
               alt="Matthew Smith, founder of s13it8"
-              width={940}
-              height={788}
+              width={1200}
+              height={1600}
               loading="lazy"
-              className="block aspect-[940/788] w-full object-cover"
+              className="block aspect-[3/4] w-full object-cover"
               whileHover={{ scale: 1.03 }}
               transition={{ duration: 0.6, ease: EASE }}
             />
@@ -68,7 +68,7 @@ export default function About() {
               belongs to you.
             </p>
           </Reveal>
-          {/* TODO: add a personal line: background, family history and video work, why you started. */}
+          {/* TODO (Matt): add a personal line here: background and why you started s13it8. */}
         </div>
       </section>
 

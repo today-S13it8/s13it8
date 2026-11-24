@@ -43,4 +43,4 @@ There is no backend yet. Sending opens the visitor's email app with a message to
 
 ## Still to fill in
 
-- A personal line in `src/pages/about.tsx`
+- A personal line on the About page (background and why s13it8 started). Spot is marked with a TODO in `src/pages/about.tsx`
