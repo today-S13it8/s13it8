@@ -10,6 +10,8 @@ const titles: Record<string, string> = {
   '/portfolio': 's13it8 · Portfolio',
   '/about': 's13it8 · About Us',
   '/contact': 's13it8 · Contact',
+  '/privacy': 's13it8 · Privacy Policy',
+  '/terms': 's13it8 · Terms of Service',
 }
 
 export function Layout() {
