@@ -43,6 +43,4 @@ There is no backend yet. Sending opens the visitor's email app with a message to
 
 ## Still to fill in
 
-- `BOOKING_URL` in `src/data/site.ts` (your Cal.com link)
 - Founder photo and a personal line in `src/pages/about.tsx`
-- One-line descriptions for Spatialinks and Jollyhops in `src/data/site.ts`

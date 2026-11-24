@@ -2,8 +2,7 @@ import type { LucideIcon } from 'lucide-react'
 import { Bot, Server, LayoutTemplate, Briefcase } from 'lucide-react'
 
 export const CONTACT_EMAIL = 's13it8@gmail.com'
-// TODO: replace with the real Cal.com booking link.
-export const BOOKING_URL = 'https://cal.com'
+export const BOOKING_URL = 'https://cal.todaysmith.com/matt/30-minute-consult-video-conference'
 
 export const nav = [
   { to: '/', label: 'Home' },
@@ -137,9 +136,8 @@ export const projects: Project[] = [
   { name: 'Family Roots Films', tags: ['Web', 'Tools'], blurb: 'Legacy documentary studio in St. Louis. Site plus four-tier booking flow.', stack: 'WordPress · Cal.com', img: 'img/family-roots-films.webp', bg: '#FFFFFF', fit: 'contain', pad: '18px' },
   { name: 'Bloodline Films', tags: ['Web'], blurb: 'Genealogy and DNA brand running on a custom photo and video theme.', stack: 'WordPress · Custom theme', img: 'img/bloodline-films.webp', bg: '#1E1715', fit: 'cover', pos: 'center 55%' },
   { name: 'Family Recipe Bot', tags: ['AI', 'Web'], blurb: 'Recipes, weekly menus and grocery lists, with Claude connected to the site.', stack: 'WordPress · AI Engine · MCP', img: 'img/family-recipe-bot.webp', bg: '#FDFBF8', fit: 'contain', pad: '12px' },
-  // TODO: replace the bracketed placeholders with real descriptions.
-  { name: 'Spatialinks', tags: ['Web'], blurb: 'Digital location content site. [ADD ONE-LINE DESCRIPTION]', stack: 'WordPress', img: 'img/spatialinks.webp', bg: '#1A1C1E', fit: 'cover' },
-  { name: 'Jollyhops', tags: ['Web'], blurb: 'A cheerful hops brand led by its party-hat mascot. [CONFIRM ONE-LINE DESCRIPTION]', stack: '[STACK]', img: 'img/jolly-hops.webp', bg: '#FFFFFF', fit: 'contain', pad: '10px' },
+  { name: 'Spatialinks', tags: ['Web'], blurb: 'Digital location management agency. Tagline: Digital Location Is Everything!', stack: 'WordPress', img: 'img/spatialinks.webp', bg: '#1A1C1E', fit: 'cover' },
+  { name: 'Jollyhops', tags: ['Web'], blurb: 'Adult beverage supplies and tool store.', stack: 'Online store', img: 'img/jolly-hops.webp', bg: '#FFFFFF', fit: 'contain', pad: '10px' },
   { name: 'Agentic Inbox', tags: ['Infra', 'Tools'], blurb: 'One inbox for six domains. Catch-all routing with AI triage.', stack: 'Cloudflare Workers · R2', img: 'img/agentic-inbox.webp', bg: '#070B14', fit: 'cover' },
   { name: 'Nova Agent', tags: ['AI'], blurb: 'Desktop knowledge agent tied to ClickUp, Wiki.js, Gitea and Google Workspace.', stack: 'Hermes · MCP', img: 'img/nova-agent.webp', bg: '#070B14', fit: 'cover' },
   { name: 'S13IT8 Command Center', tags: ['Tools'], blurb: 'Private dashboard for every brand, task and server in one view.', stack: 'React · Supabase', img: 'img/command-center.webp', bg: '#070B14', fit: 'cover' },
