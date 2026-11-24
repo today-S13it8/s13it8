@@ -8,6 +8,8 @@ import Services from '@/pages/services'
 import Portfolio from '@/pages/portfolio'
 import About from '@/pages/about'
 import Contact from '@/pages/contact'
+import Privacy from '@/pages/privacy'
+import Terms from '@/pages/terms'
 import NotFound from '@/pages/not-found'
 import './index.css'
 
@@ -21,6 +23,8 @@ const router = createBrowserRouter(
         { path: '/portfolio', element: <Portfolio /> },
         { path: '/about', element: <About /> },
         { path: '/contact', element: <Contact /> },
+        { path: '/privacy', element: <Privacy /> },
+        { path: '/terms', element: <Terms /> },
         { path: '*', element: <NotFound /> },
       ],
     },

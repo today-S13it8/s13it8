@@ -30,7 +30,10 @@ export function SiteFooter() {
       </div>
       <div className="container-site flex flex-wrap justify-between gap-3 pb-8 text-sm text-faint">
         <span>© {new Date().getFullYear()} s13it8, LLC</span>
-        <span>Privacy · Terms</span>
+        <nav aria-label="Legal" className="flex gap-4">
+          <Link className="hover:text-foreground" to="/privacy">Privacy Policy</Link>
+          <Link className="hover:text-foreground" to="/terms">Terms of Service</Link>
+        </nav>
       </div>
     </footer>
   )
